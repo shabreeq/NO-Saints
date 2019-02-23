@@ -205,7 +205,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				opacity: 0.35;
-				color: #fff;
+				color: #000000;
 				-moz-transition: opacity 0.25s ease-in-out;
 				-webkit-transition: opacity 0.25s ease-in-out;
 				-ms-transition: opacity 0.25s ease-in-out;
@@ -384,7 +384,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: #d4af37;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
