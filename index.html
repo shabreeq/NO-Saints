@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -24,27 +25,42 @@
 							<div class="items">
 
 								<div class="item intro span-2">
-									<h1>Who Dat Facts</h1>
-									<p>The Official Fan Blog</p>
+									<h1>Who Dat? Who Dat?</h1>
+									<div>Who Dat Said They Gon' Beat Dem SAINTS?</div>
 								</div>
 
 								<article class="item thumb span-1">
-									<h2>You really got me<link href="blogTemplate.html"></h2>
+									<h2>Home in the Dome<link href="blogTemplate.html"></h2>
 									<a href="images/superdome.jpg" class="image"><img src="images/DpEsEnsWsAAUqni.jpg" alt=""></a>
 								</article>
 
 								<article class="item thumb span-2">
-									<h2>Ad Infinitum</h2>
-									<a href="images/fulls/02.jpg" class="image"><img src="images/killacam.jpg" alt=""></a>
-								</article>
+									<h2>Killa Cam Jordan</h2>
+								<div id="instructions">
+
+									<video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="280px"
+											controls preload="none" poster='images/cam-highlights.webp'
+											data-setup='{ "aspectRatio":"640:280", "playbackRates": [1, 1.5, 2] }'>
+										<source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+										<source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+									</video>
+								
+									<p><a href="http://www.videojs.com" target="_blank"></a>.</p>
+									
+									
+									<textarea id="css_result"></textarea>
+								
+								</div>
+							</article>
+								
 
 								<article class="item thumb span-1">
-									<h2>Different.</h2>
+									<h2>Can't Guard Mike.</h2>
 									<a href="images/fulls/03.jpg" class="image"><img src="images/mike.jpg" alt=""></a>
 								</article>
 
 								<article class="item thumb span-1">
-									<h2>Elysium</h2>
+									<h2>The No-Call Call</h2>
 									<a href="images/fulls/04.jpg" class="image"><img src="images/bad-call.jpg" alt=""></a>
 								</article>
 
@@ -73,19 +89,19 @@
 						<!-- Items -->
 							<div class="items">
 
-								<article class="item thumb span-3"><h2>Kingdom of the Wind</h2><a href="images/fulls/05.jpg" class="image"><img src="images/hill.jp.jpg" alt="">
+								<article class="item thumb span-3"><h2>Quarterback Future</h2><a href="images/fulls/05.jpg" class="image"><img src="images/hill.jp.jpg" alt="">
 								</a>
 							</article>
 
-								<article class="item thumb span-1"><h2>The Pursuit</h2><a href="images/fulls/06.jpg" class="image"><img src="images/tp.jpg" alt=""></a>
+								<article class="item thumb span-1"><h2>Superbowl 2020?</h2><a href="images/fulls/06.jpg" class="image"><img src="images/tp.jpg" alt=""></a>
 								</article>
 
 
-								<article class="item thumb span-2"><h2>Boundless</h2><a href="images/fulls/07.jpg" class="image"><img src="images/vilma.jpg" alt=""></a>
+								<article class="item thumb span-2"><h2>The Rise of The Defense</h2><a href="images/fulls/07.jpg" class="image"><img src="images/vilma.jpg" alt=""></a>
 								</article>
 
 
-								<article class="item thumb span-2"><h2>The Spectators</h2><a href="images/fulls/08.jpg" class="image"><img src="images/coach.jpg" alt=""></a>
+								<article class="item thumb span-2"><h2>Coaching Aint Easy</h2><a href="images/fulls/08.jpg" class="image"><img src="images/coach.jpg" alt=""></a>
 								</article>
 
 
@@ -117,6 +133,8 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+			<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
