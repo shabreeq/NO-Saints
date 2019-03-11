@@ -10,3 +10,10 @@ CREATE TABLE user_info (
   email VARCHAR(320) NULL,
   PRIMARY KEY (id)
 );
+
+CREATE TABLE blogs (
+  id INT NOT NULL,
+  title VARCHAR(320) NULL,
+  body VARCHAR(MAX)
+
+);
