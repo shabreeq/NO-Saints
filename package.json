@@ -1,0 +1,23 @@
+{
+  "name": "no-saints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabreeq/NO-Saints.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shabreeq/NO-Saints/issues"
+  },
+  "homepage": "https://github.com/shabreeq/NO-Saints#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
